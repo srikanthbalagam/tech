@@ -1,0 +1,373 @@
+.background{
+    background-image:url("https://th.bing.com/th/id/R.ebe74d173d773f9a6b473fe461a2275e?rik=KTfX0s0wCV%2f43Q&riu=http%3a%2f%2fimages.huffingtonpost.com%2f2016-05-06-1462539856-7174175-6358850986901693652109630270_TECHTRENDS.jpg&ehk=IX8xn7uEz7ak2xN45yIxNaQ6rNwv7gCtZKXjEnyVD6I%3d&risl=&pid=ImgRaw&r=0");
+    height:100vh;
+    width:100vw;
+    background-size:cover;
+    border-color: black;
+    border-width:3px;
+    border-style: solid;
+}
+.nav-sec{             /*nav section*/
+    font-size:20px;
+    display:flex;
+    list-style-type:none;
+    position:fixed;
+    width:100%;
+    flex-direction:row;
+    align-items:center;
+    margin-top:0px;
+    justify-content: space-between;
+     
+    background-color:rgb(238, 18, 128);
+}
+.nav-logo{
+    font-size:30px;
+    padding-left:20px;
+    font-weight:bold;
+    font-style:italic;
+    color:white;
+    cursor: pointer;
+}
+.pvrk-logo{
+    background-color:aliceblue;
+    height:70px;
+    width:70px;
+    border-radius:50px;
+}
+.nav-sec ul li  {
+    display:inline-block;
+    font-weight:bold;
+    text-decoration:none;
+    font-size:30px;
+    color:white;
+    font-style:italic;
+    margin-right:20px;
+    padding:0px 8px;
+    cursor: pointer;
+}
+.nav-anchor{             
+    text-decoration: none;
+    padding-top:10px;
+    color: black;
+    font-size:30px ;
+    font-weight:500;
+    color:white;
+    
+}
+  
+
+.home-page-img{
+    width:100vw; 
+    margin-top:5px;
+    background-size:auto;
+}
+.heading{
+    color:rgb(35, 240, 240);
+    font-family: "serif";
+    font-weight: 900;
+    font-size:60px;
+    text-align: center;
+    padding-top:50px;
+}
+.heading-h{
+
+    color:rgb(35, 240, 240);
+    font-family: "serif";
+    font-weight: 900;
+    font-size:60px;
+    text-align: center;
+    padding-top:10%;
+}
+.para{
+    font-family: "serif";
+    font-weight: 700;
+    font-size:50px;
+    color:rgb(33, 240, 33);
+    text-align: right;
+}
+.course-container{
+    padding-top: 60px;
+    padding-bottom:40px;
+    
+}
+.course-top-heading{
+    font-size:50px;
+    font-weight:bold;
+    color:#0d27eb;
+    font-family:Cambria;
+    text-align: center;
+    padding-top:30px;
+}
+.courses-headings{
+     text-align: center;
+     
+}
+.course-card{
+    margin-top:20px;
+    background-color:rgb(81, 236, 250);
+    margin-left:20px;
+    height:33vh;
+    width:35vw;
+    border-radius:20px;
+    padding-top:20px;
+    padding-left:30px;
+    border-color: black;
+    border-width:1px;
+    border-style:solid;
+}
+ 
+/* anchor tag decoration */
+
+.anchor{             
+    text-decoration:none; 
+    font-size:20px ;
+    font-weight:500;
+    color:blue;
+    margin-bottom:3px;    
+}
+.anchor:hover{
+    text-decoration:underline;
+    color:rgb(232, 159, 24);
+}
+.about-page{
+    padding-top:20px ;
+    margin-top:30px;
+    margin-bottom:30px;
+    height:70vh;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbm_pYEsqv86wDP9TYejlwd8Rp6WeZTsTdIQ&s") ;
+    background-size:cover ;
+}
+.about-pg-card{
+    margin-top:20px;
+    margin-bottom:30px;
+    background-color:rgb(140, 224, 232);
+    margin-left:20px;
+    height:40vh;
+    width:60vw;
+    border-top-right-radius:180px;
+    border-bottom-right-radius:180px;
+    border-color:blue;
+    border-style:solid ;
+    border-width:3px;
+    padding-top:20px;
+    padding-left:30px; 
+}
+.about-pg-circle-card{
+    background-color:rgb(140, 224, 232);
+    margin-left:20px;
+    height:40vh;
+    width:25vw;
+    margin-left:30px;
+    margin-top:20px;
+    border-radius:180px;
+    border-color:blue;
+    border-style:solid ;
+    border-width:3px;
+}
+  .circle-card-head{
+    text-align:center;
+    text-decoration:underline;
+    padding-top:45px;
+}
+ 
+.circle-card-para{
+    padding-left:30px;
+    padding-top:10px;
+}
+.contact-bg{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvnDx4uanrS29rDHOX6zF4xgF-r4FdSBwA3g&s");
+    background-repeat:no-repeat;
+    background-size:cover ;
+    margin-top:10%;
+    margin-bottom:10px;
+    height:70vh ;
+
+}
+.contact-heading{
+    padding-top:20px;
+    padding-bottom:20px;
+    text-align: center;
+    color:black;
+}
+.contact-card{
+    background-color: beige;
+    height:55vh;
+    width:40vw;
+    border-radius:180px;
+    margin-right:20px;
+    text-align: center;
+}
+p{
+    font-size:20px;
+    font-weight:600;
+}
+
+.htmlcontent{
+    background-color:aliceblue;
+    height:100vh;
+    width:100vw;
+    max-height: 100%;  
+    overflow-y: auto;
+}
+
+ 
+ 
+
+.html{
+color:white;
+ padding-top:3px;
+}
+.button{
+    font-size:20px;
+    font-weight:500;
+    background:transparent;
+    padding-left:20px;
+    padding-right:20px;
+    border-radius: 20px;
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+}
+
+/* for frontend courses   (    html page 1 css styles   )*/
+.front-end-sec{
+    background-color:rgb(139, 218, 200);
+    background-size:cover ;
+     
+    width:100vw;
+    padding:40px;
+}
+/* html concept heading style */
+.html-con-head{
+    text-align: center;
+    text-decoration:underline;
+
+}
+.order-list{
+    color:rgb(19, 9, 9);
+    font-size:20px;
+    font-weight:500;
+    padding-left:8%;
+    cursor: pointer;
+}
+.front-end-sec-card{
+    background-color:rgba(243, 234, 241, 0.879);
+    height:auto;
+    width:auto;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+}
+.section-heading{
+    background-color:pink;
+    background-size:cover;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+}
+.order-list li{
+    list-style-position: inside;
+    padding:3px;
+    transition: background-color 0.3s;
+}
+.order-list li:hover{
+    background-color:rgb(216, 216, 216);
+    background-size: cover;
+    cursor: pointer;
+}
+
+/* button on the section below for return to main page*/
+.button{
+   display:flex;
+   align-items: center;
+   background-color:transparent;
+   border-radius:20 px;
+   text-align: center;
+}
+
+/* html page 1 anchor tag*/
+a.anchor_list_item {
+    text-decoration: none;
+    color:black;
+  }
+  a.anchor_list_item:hover {
+    color:rgb(76, 190, 235);
+    transition:0.3;
+  }
+
+
+                       /* signup        page           css*/
+
+  .signup-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-top:30px;
+   margin-bottom:30px;
+  }
+
+  .signup-bg-container{
+    display: flex;
+    flex-direction: column;
+    height:80vh;
+    width:25vw;
+    background-color: rgba(186, 185, 186, 0.812);
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    padding:20px;
+  }
+  .signup-heading{
+    text-align: center;
+    color:blue;
+    text-decoration: underline;
+    padding-bottom: 20px;
+  }
+  label{
+    font-size:20px;
+    font-weight: 500;
+
+  }
+  input{
+     border-radius:8px;
+     font-size:20px;
+  }
+  .signup-button{
+    margin:15px;
+    border-radius:20px;
+    background-color: rgb(110, 110, 230);
+    color:white;
+  }
+
+  /*        login  page  css       */ 
+
+  .login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:30px;
+    margin-bottom:30px;
+   }
+ 
+   .login-bg-container{
+     display: flex;
+     flex-direction: column;
+     height:80vh;
+     width:25vw;
+     background-color: rgba(186, 185, 186, 0.812);
+     border-top-left-radius:10px;
+     border-top-right-radius:10px;
+     padding:20px;
+   }
+   .login-heading{
+     text-align: center;
+     color:blue;
+     text-decoration: underline;
+   }
+    
+   .login-button{
+     margin:15px;
+     border-radius:20px;
+   }
+ 
